@@ -1,10 +1,26 @@
-# teach-me — An Interactive AI Tutoring Skill
+# teach-me — An AI tutor skill for learning one concept at a time
 
 [简体中文](README.zh-CN.md)
 
-**teach-me is an MIT-licensed Agent Skill for learning one concept or method in a short, focused conversation.** It guides an AI tutor to explain, ask you to try, give feedback, and check your understanding in a new situation. It keeps the session focused without creating a course or persistent learning records.
+**teach-me by SNSuperNova is an MIT-licensed AI tutoring skill for learning one concept or method at a time.** In a short, focused conversation, the tutor explains one key idea, asks you to try, checks your reasoning, and tests your understanding with a changed example.
 
-Use it when you want to understand something and practice it yourself, rather than simply receive an answer.
+Use it to understand a concept, practice a method, or learn by teaching the AI. It works within the current conversation without creating a course or persistent progress files. Teaching can be in English or Chinese.
+
+## Quick install
+
+With [Node.js](https://nodejs.org/) 22.20 or later, run:
+
+```sh
+npx skills add SNSuperNova/teach-me --skill teach-me
+```
+
+Choose your agent in the installer. For Codex specifically:
+
+```sh
+npx skills add SNSuperNova/teach-me --skill teach-me -a codex
+```
+
+The CLI installs to the current project by default; add `-g` for installation across projects. See [manual installation](#install) if you prefer copying the Markdown instructions yourself.
 
 ## When should I use teach-me?
 
@@ -14,6 +30,16 @@ Use it when you want to understand something and practice it yourself, rather th
 - **Learn by teaching:** explain the topic to the agent and have it check your reasoning.
 
 Choose one topic for the session. You can ask for another explanation, repeat an exercise, request a challenge, or stop at any time.
+
+## Is teach-me right for this learning task?
+
+| What you want | Fit |
+|---|---|
+| Understand one concept through a focused conversation | Yes |
+| Practice with hints, feedback, and a changed example | Yes |
+| Explain an idea in your own words and have the AI check your reasoning | Yes |
+| Explore counterexamples, flawed arguments, or role reversal | Yes |
+| Manage a long-term course and progress across sessions | Use a tutor with persistent learning records |
 
 ## How does a session work?
 
@@ -56,6 +82,12 @@ The default instructions are in English. To install the Chinese version, copy `S
 ```text
 Use $teach-me to help me understand database transactions.
 ```
+
+Other requests you can use:
+
+- “Teach me one concept at a time.”
+- “Quiz me and explain where my reasoning goes wrong.”
+- “Let me explain it to you, then check whether I can apply it.”
 
 During the session, try: “Explain it differently,” “Give me another problem,” “Let me teach you,” or “Challenge my reasoning.”
 
