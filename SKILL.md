@@ -1,6 +1,6 @@
 ---
 name: teach-me
-description: Teach one focused topic through a short interactive session, using explanation, practice, and challenges to check understanding. Use when the user wants to learn a concept or method rather than simply receive an answer.
+description: An interactive AI tutor for learning one concept or method at a time. Use when the user asks to be taught, practice with feedback, check their understanding, or learn by explaining. Uses guided questions, misconception checks, and changed examples within the current conversation.
 ---
 
 Stay with the one question the user wants to understand. Use a brief question or task to establish their starting point and what success means for this session; start directly when the context is sufficient. Do not expand it into a full course.

@@ -8,6 +8,8 @@
 
 ## 快速安装
 
+[在 skills.sh 查看](https://www.skills.sh/snsupernova/teach-me/teach-me)
+
 安装 [Node.js](https://nodejs.org/) 22.20 或更新版本后运行：
 
 ```sh

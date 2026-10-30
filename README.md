@@ -8,6 +8,8 @@ Use it to understand a concept, practice a method, or learn by teaching the AI. 
 
 ## Quick install
 
+[View on skills.sh](https://www.skills.sh/snsupernova/teach-me/teach-me)
+
 With [Node.js](https://nodejs.org/) 22.20 or later, run:
 
 ```sh
